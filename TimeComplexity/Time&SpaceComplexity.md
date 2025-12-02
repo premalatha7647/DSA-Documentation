@@ -1,17 +1,15 @@
 
-
-
-
 # Time and Space complexity:
     1. O(1)
-        when the program return the direct value 
-        for example:
-          Find the 5th element in the array
-
-                function findElement(a){
-
-                    return a[5]
-                }
+    The execution time remains the same regardless of the input size. The program performs a direct operation.        
+   
+     **Example:** Accessing a specific index in an array.
+     
+        // Function to find the 5th element
+        function findElement(a) {
+           // Returns directly, no looping
+        return a[5]; 
+        }
             Time complexity is very low here even the input size increases.
 
     2. O(log n)
