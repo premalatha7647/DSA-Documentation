@@ -4,7 +4,7 @@
     The execution time remains the same regardless of the input size. The program performs a direct operation.        
    
      **Example:** Accessing a specific index in an array.
-     
+
         // Function to find the 5th element
         function findElement(a) {
            // Returns directly, no looping
@@ -23,7 +23,7 @@
         n * 1/2 * 1/2 * 1/2 * 1/2 .... x = 1 
         n / 2^x =1
         x= log2 n
-        x log n
+        x = log n
 
 
 
