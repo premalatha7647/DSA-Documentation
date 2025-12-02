@@ -26,7 +26,6 @@
         x = log n
 
 
-
     3. O(n)
 
         when the loops run n times .
@@ -55,13 +54,26 @@
 
     6. O(2^n)
         when different types of oprations runs on n times
-            for(i =0; i<n; i++){
-            ....
-           }
-            for(j=0; j<n; j++){
-            ....
-            }
+          
 
     7. O(n!)
 
-    
+    8. O(2n), O(3n)
+
+        for(i =0; i<n; i++){
+            ....
+           }
+
+        for(j=0; j<n; j++){
+            ....
+            }
+
+        O(2n), O(3n) ===> O(n)
+
+        when the input size increase the operation will be low compare to O(n^2)
+
+        n= 100 
+
+        O(n^2) == 100 * 100 ==> 10000
+
+        O(2n) == 2 *100 ==> 200 ( so we can ignore the constant here)
