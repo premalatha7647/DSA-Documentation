@@ -1,4 +1,8 @@
-Time and Space complexity:
+
+
+
+
+# Time and Space complexity:
     1. O(1)
         when the program return the direct value 
         for example:
@@ -59,7 +63,7 @@ Time and Space complexity:
             for(j=0; j<n; j++){
             ....
             }
-            
+
     7. O(n!)
 
     
